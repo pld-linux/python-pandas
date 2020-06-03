@@ -1,10 +1,11 @@
+# NOTE: for versions >= 1.0.0 for python 3.6+ see python3-pandas.spec
 # TODO: finish apidocs and tests
 #
 # Conditional build:
 %bcond_with	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests [R: python-zoneinfo for hypothesis?]
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-pandas.spec)
 
 Summary:	Powerful data structures for data analysis, time series and statistics
 Summary(pl.UTF-8):	Elastyczne struktury danych do analizy danych, szeregów chronologicznych i statystyki

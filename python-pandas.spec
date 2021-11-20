@@ -12,7 +12,7 @@ Summary(pl.UTF-8):	Elastyczne struktury danych do analizy danych, szeregów chro
 Name:		python-pandas
 # keep 0.24.x here for python2 support
 Version:	0.24.2
-Release:	2
+Release:	3
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pandas/
